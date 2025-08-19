@@ -1,12 +1,14 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  '/images/dummy-bg-1.svg',
-  '/images/dummy-bg-2.svg',
-  '/images/dummy-bg-3.svg',
+  "/images/1.jpg",
+  "/images/2.jpg",
+  "/images/3.jpg",
+  "/images/4.jpg",
+  "/images/5.jpg",
 ];
 
 const ImageSlider = () => {
